@@ -1,0 +1,84 @@
+@font-face {
+    font-family: FontDiner;
+    src: url("./Permanent_Marker/PermanentMarker-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: FontDiner;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: beige;
+    background-color: black;
+    height: 600px;
+    justify-content: space-around;
+
+}
+
+main {
+    background-color: black;
+    color: deeppink;
+    text-align: center;
+    text-align: center;
+}
+
+
+#container {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    margin: 0, auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+#container div {
+    background-color: tan;
+    height: 400px;
+    width: 400px;
+    border: 1px solid darkolivegreen;
+    border-radius: 50%;
+    text-align: center;
+
+
+}
+
+#container2 {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    margin: 0, auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#container2 div {
+    background-color: tan;
+    height: 400px;
+    width: 600px;
+    border: 1pz solid darkolivegreen;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+h1 {
+    flex-basis: 55%;
+    font-size: 29px;
+}
+
+img {
+    width: 300px;
+}
+
+#artImage {
+    background-image: url("sunset.jpg");
+}
